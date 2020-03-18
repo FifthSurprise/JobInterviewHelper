@@ -8,5 +8,9 @@ RSpec.describe JobApplication, type: :model do
       it 'has a company' do
           expect(job_application.company).to_not be nil
       end
+      
+      it 'has a user' do
+          expect(job_application.user).to_not be nil
+      end
   end
 end

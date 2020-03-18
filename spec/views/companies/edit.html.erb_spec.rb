@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "companies/edit", type: :view do
   before(:each) do
-    @company = assign(:company, Company.create!())
+    @company = assign(:company, FactoryBot.create(:company))
   end
 
   it "renders the edit company form" do

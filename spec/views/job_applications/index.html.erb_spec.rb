@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe "job_applications/index", type: :view do
   before(:each) do
     assign(:job_applications, [
-      JobApplication.create!(),
-      JobApplication.create!()
+      FactoryBot.create(:job_application),
+      FactoryBot.create(:job_application)
     ])
   end
 
