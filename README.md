@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+JobInterviewerHelper
 
-Things you may want to cover:
+Ruby on Rails application to help organize job interviews with other companies.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Sample Database Diagram:
+![alt text](https://dbdiagram.io/embed/5e71a4274495b02c3b88635f "Sample Database Diagaram")
