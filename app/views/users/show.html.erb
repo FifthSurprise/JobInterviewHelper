@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>User: <%= "#{@user.email}" %></p>
+
+<% @user.job_applications.each do |job_application| %>
+<% company = job_application.company %>
+<p> Job Application: <%= link_to "#{company.name}", company %>. Applied on <%= "#{job_application.created_at}" %></p>
+<% end %>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
